@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wal"
+    android:padding="16dp">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, User!"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+
+    <!-- View Products Button -->
+    <Button
+        android:id="@+id/btnViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Bakery Products"/>
+
+    <!-- Check Availability Button -->
+    <Button
+        android:id="@+id/btnCheckAvailability"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Product Availability"/>
+
+    <!-- Buy Products Button -->
+    <Button
+        android:id="@+id/btnBuyProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buy Bakery Products"/>
+
+    <!-- Track Order Button -->
+    <Button
+        android:id="@+id/btnTrackOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Track Order"/>
+
+    <!-- Submit Feedback Button -->
+    <Button
+        android:id="@+id/btnSubmitFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Feedback"/>
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+</LinearLayout>

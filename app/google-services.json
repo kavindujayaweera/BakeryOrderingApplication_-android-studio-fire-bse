@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "893328581206",
+    "project_id": "realtimedatabase-3a66e",
+    "storage_bucket": "realtimedatabase-3a66e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893328581206:android:1fb7400c15e4323893d1f7",
+        "android_client_info": {
+          "package_name": "com.example.beakeryordering"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8dU9xUT6MlReEcsnudyo26LlWTiLE5jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893328581206:android:264a7276dbcc233393d1f7",
+        "android_client_info": {
+          "package_name": "com.example.realtimedatabase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8dU9xUT6MlReEcsnudyo26LlWTiLE5jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

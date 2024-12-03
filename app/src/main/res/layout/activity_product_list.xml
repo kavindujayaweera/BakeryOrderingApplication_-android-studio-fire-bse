@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Products"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Product 1 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/imgProduct1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sample_product_image" />
+
+        <!-- Product Name and Price -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtProductName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cookies"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtProductPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $100.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+            <Button
+                android:id="@+id/btnOrder1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:onClick="onOrderButtonClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Product 2 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/imgProduct2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sample_product_image2" />
+
+        <!-- Product Name and Price -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtProductName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cup cake"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtProductPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $200.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+            <Button
+                android:id="@+id/btnOrder2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:onClick="onOrderButtonClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Product 3 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/imgProduct3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sample_product_image3" />
+
+        <!-- Product Name and Price -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtProductName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="brownie"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtProductPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $150.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+            <Button
+                android:id="@+id/btnOrder3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:onClick="onOrderButtonClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Product 4 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp">
+
+        <!-- Product Image -->
+        <ImageView
+            android:id="@+id/imgProduct4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sample_product_image4" />
+
+        <!-- Product Name and Price -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="16dp"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txtProductName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="muffin"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtProductPrice4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price: $120.00"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+            <Button
+                android:id="@+id/btnOrder4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Order"
+                android:onClick="onOrderButtonClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
